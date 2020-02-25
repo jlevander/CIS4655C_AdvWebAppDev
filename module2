@@ -11,10 +11,21 @@
 </head>
 <body>
 
-<div class="jumbotron text-center">
-  <h1>Hello World!!!</h1>
-  <p>Bootstrap is cool!</p>
-</div>
+  <div class="jumbotron text-center">
+    <h1>News</h1>
+    <div class="row">
+      <div class="col bg-primary text-white">Home</div>
+      <div class="col bg-warning text-body">Products</div>
+      <div class="col bg-primary text-white">News</div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <h1>Extra! Extra!</h1>
+    <p>Read about the latest in disc golf below</p>
+    <p class="bg-warning text-primary text-center">Bootstrap is cool!</p>
+  </div>
+
 
 </body>
 </html>
