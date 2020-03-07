@@ -8,37 +8,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-    }
-
-    .fa:hover {
-        opacity: 0.7;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-
-    .fa-tumblr {
-  	  background: #2c4762;
-      color: white;
-	}
-
-    .fa-rss {
-      background: #ff6600;
-      color: white;
-	}
-	</style>
+<style>
+img.shrink {
+  max-width: 10%;
+  height: auto;
+}
+</style>
 </head>
 <body>
 
@@ -85,7 +60,7 @@
           <div class="card-body">
             <h5 class="card-title">Sierra Leone</h5>
             <p class="card-text">Don't worry. The ebola is under control now... So our sources say...</p>
-            <p class="card-text"><small class="text-muted">Card 2</small></p>
+            <p class="card-text"><small class="text-muted"><span class="label label-default">Card 2</span></small></p>
           </div>
         </div>
       </div>
@@ -115,17 +90,16 @@
       <div class="card-body">
         <h5 class="card-title">Wanna go somewhere?</h5>
         <p class="card-text">We have bazillions of places to go! All you have to do is click the button below to take off!</p>
-        <button type="button" class="btn btn-info" href="http://sotd.us/johnlevander/advwebappdev/module4/assignment_button.html">Book a Trip!</button>
+        <a roll="button" class="btn btn-info " href="http://sotd.us/johnlevander/advwebappdev/module4/assignment_button.html">Book a Trip!</a>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container text-right bg-dark">
-	  <!-- Add font awesome icons -->
-	  <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-tumblr"></a>
-    <a href="#" class="fa fa-rss"></a>
+<div class="banner text-right bg-dark">
+	<button type="button" class="btn btn-primary">f  <span class="badge rounded-circle bg-danger">2</span></button>
+    <button type="button" class="btn btn-info">t <span class="badge rounded-circle bg-danger">7</span></button>
+    <button type="button" class="btn btn-warning"><img src="rss.png" class="img-fluid shrink"><span class="badge rounded-circle bg-danger">7</span></button>
 </div>
 
 </body>
