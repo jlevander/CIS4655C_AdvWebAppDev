@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="http://sotd.us/johnlevander/advwebappdev/northmanshield.png"><img src="northmanshield.png" class="img-fluid" width="50%" alt="northman discs logo"></a>
+
+  <!-- Navbar text-->
+  <span class="navbar-text bg-warning text-dark p-3">
+    <h3>Northman Discs</h3>
+  </span>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="http://sotd.us/johnlevander/advwebappdev/courseproject/index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://sotd.us/johnlevander/advwebappdev/courseproject/products.html">Products</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://sotd.us/johnlevander/advwebappdev/courseproject/news.html">News</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://sotd.us/johnlevander/advwebappdev/courseproject/contactus.html">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Main form -->
+<div class="container">
+  <h2>We're here to help!</h2>
+  <p>Fill out the below form and we'll get back to you soon!</p>
+  <form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter email address" name="email" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="inqry">What can we help you with?:</label>
+      <input type="text" class="form-control" id="inqry" placeholder="Enter your question/comment" name="inqry" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+
+    <!-- Radio options -->
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optradio">Personal Inquiry
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="optradio">Professional Inquiry
+      </label>
+    </div>
+    <br>
+
+    <!-- Check Boxes -->
+    <p>What are you interested in?</p>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="">Products
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="">Disc golf news
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="checkbox" class="form-check-input" value="">Feedback
+      </label>
+    </div>
+    <br>
+
+    <!-- drop down selection -->
+    <div class="form-group">
+      <label for="sel1">What's your age range?</label>
+        <select class="form-control" id="sel1">
+          <option>18-30</option>
+          <option>31-40</option>
+          <option>41-50</option>
+          <option>51+</option>
+        </select>
+    </div>
+
+    <!-- Form submission -->
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+
+</body>
+</html>
